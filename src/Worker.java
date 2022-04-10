@@ -9,6 +9,7 @@ public class Worker {
     public interface OnTaskErrorListener {
         void onError(String result);
     }
+
     OnTaskErrorListener errorListener ;
     private OnTaskDoneListener callback;
 
