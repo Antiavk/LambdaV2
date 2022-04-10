@@ -12,8 +12,6 @@ public class Worker {
     OnTaskErrorListener errorListener ;
     private OnTaskDoneListener callback;
 
-
-
     public Worker(OnTaskDoneListener callback, OnTaskErrorListener errorListener) {
         this.callback = callback;
         this.errorListener = errorListener;
